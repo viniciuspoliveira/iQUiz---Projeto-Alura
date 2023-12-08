@@ -13,6 +13,7 @@
 		50EDF0F42B21D8BC0025FC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EDF0F22B21D8BC0025FC5E /* Main.storyboard */; };
 		50EDF0F62B21D8BD0025FC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EDF0F52B21D8BD0025FC5E /* Assets.xcassets */; };
 		50EDF0F92B21D8BD0025FC5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EDF0F72B21D8BD0025FC5E /* LaunchScreen.storyboard */; };
+		50EDF1012B23268F0025FC5E /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDF1002B23268F0025FC5E /* QuestaoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		50EDF0F52B21D8BD0025FC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50EDF0F82B21D8BD0025FC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50EDF0FA2B21D8BD0025FC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EDF1002B23268F0025FC5E /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				50EDF0EC2B21D8BC0025FC5E /* AppDelegate.swift */,
 				50EDF0EE2B21D8BC0025FC5E /* SceneDelegate.swift */,
 				50EDF0F02B21D8BC0025FC5E /* ViewController.swift */,
+				50EDF1002B23268F0025FC5E /* QuestaoViewController.swift */,
 				50EDF0F22B21D8BC0025FC5E /* Main.storyboard */,
 				50EDF0F52B21D8BD0025FC5E /* Assets.xcassets */,
 				50EDF0F72B21D8BD0025FC5E /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				50EDF0F12B21D8BC0025FC5E /* ViewController.swift in Sources */,
 				50EDF0ED2B21D8BC0025FC5E /* AppDelegate.swift in Sources */,
 				50EDF0EF2B21D8BC0025FC5E /* SceneDelegate.swift in Sources */,
+				50EDF1012B23268F0025FC5E /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
