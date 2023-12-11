@@ -64,10 +64,71 @@
                     <view key="view" contentMode="scaleToFill" id="FHS-lR-ZhT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo da Questão" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBv-Mn-aug">
+                                <rect key="frame" x="64" y="204" width="286" height="39"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mia-19-EK2">
+                                <rect key="frame" x="64" y="409" width="286" height="62"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.1176470588" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="AhD-eZ-yJL"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Resposta 02">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbX-fT-0w5">
+                                <rect key="frame" x="64" y="503" width="286" height="62"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.1176470588" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="AAX-MI-b1h"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Resposta 03">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZH-q4-SkS">
+                                <rect key="frame" x="64" y="315" width="286" height="62"/>
+                                <color key="backgroundColor" red="0.32156862745098036" green="0.11764705882352941" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="3C6-Ff-Rgj"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Resposta 01">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="aJL-eG-Lct"/>
                         <color key="backgroundColor" red="0.32156862745098036" green="0.11764705882352941" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mia-19-EK2" firstAttribute="top" secondItem="LZH-q4-SkS" secondAttribute="bottom" constant="32" id="J4g-wh-Q5w"/>
+                            <constraint firstItem="SbX-fT-0w5" firstAttribute="top" secondItem="Mia-19-EK2" secondAttribute="bottom" constant="32" id="L3x-Ca-dQN"/>
+                            <constraint firstItem="aJL-eG-Lct" firstAttribute="trailing" secondItem="Mia-19-EK2" secondAttribute="trailing" constant="64" id="Ops-jN-fkl"/>
+                            <constraint firstItem="LZH-q4-SkS" firstAttribute="top" secondItem="ZBv-Mn-aug" secondAttribute="bottom" constant="72" id="Qy3-U4-uwo"/>
+                            <constraint firstItem="ZBv-Mn-aug" firstAttribute="top" secondItem="aJL-eG-Lct" secondAttribute="top" constant="112" id="b4K-AV-6N4"/>
+                            <constraint firstItem="LZH-q4-SkS" firstAttribute="leading" secondItem="aJL-eG-Lct" secondAttribute="leading" constant="64" id="mOm-GR-4dM"/>
+                            <constraint firstItem="aJL-eG-Lct" firstAttribute="trailing" secondItem="SbX-fT-0w5" secondAttribute="trailing" constant="64" id="nOa-zZ-DcZ"/>
+                            <constraint firstItem="ZBv-Mn-aug" firstAttribute="leading" secondItem="aJL-eG-Lct" secondAttribute="leading" constant="64" id="tEX-Pu-HFw"/>
+                            <constraint firstItem="aJL-eG-Lct" firstAttribute="trailing" secondItem="ZBv-Mn-aug" secondAttribute="trailing" constant="64" id="tcC-BA-TlP"/>
+                            <constraint firstItem="Mia-19-EK2" firstAttribute="leading" secondItem="aJL-eG-Lct" secondAttribute="leading" constant="64" id="tyr-lG-oDB"/>
+                            <constraint firstItem="SbX-fT-0w5" firstAttribute="leading" secondItem="aJL-eG-Lct" secondAttribute="leading" constant="64" id="x3c-aJ-yZE"/>
+                            <constraint firstItem="aJL-eG-Lct" firstAttribute="trailing" secondItem="LZH-q4-SkS" secondAttribute="trailing" constant="64" id="y5k-VQ-5mI"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Sxc-pM-I2f"/>
+                    <connections>
+                        <outlet property="tituloQuestaoLabe" destination="ZBv-Mn-aug" id="37g-61-ANl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJz-72-mI8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

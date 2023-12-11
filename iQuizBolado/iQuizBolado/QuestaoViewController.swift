@@ -9,10 +9,13 @@ import UIKit
 
 class QuestaoViewController: UIViewController {
 
+    @IBOutlet weak var tituloQuestaoLabe: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        navigationItem.hidesBackButton = true
     }
     
 
